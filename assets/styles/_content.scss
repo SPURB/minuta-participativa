@@ -1,9 +1,9 @@
 .content {
-    padding: 40px 20px;
+    padding: 20px;
 
     h1 {
         margin:0;
-        font-family: 'museoSlab';
+        font-family: $font-stack;
         font-size: 20px;
         line-height: 20px;
         text-transform: uppercase;
@@ -15,20 +15,42 @@
         border-bottom: 3px solid #f0f0f0;
         padding: 5px 0;
         margin: 25px 0 15px 0;
-        color: $primary-color;
+        color: $primary-color; 
         font-size: 80%;
     }
 
     .main-text {
         p {
-            line-height: 1.3em;
+            line-height: 1.5em;
         }
+
+        h3, h4{
+            margin: 1.85em 0 0.35em;
+            font-size: 1.33em;
+        }
+        h5, h6{
+            line-height: 1.5em;
+            font-size: 1em;
+            margin-bottom: 0
+        }
+        h6{ margin-top: 0}
+
+        ol#main-text-indice {
+            margin: 1em 0;
+            padding-left: 17px;
+            line-height: 1.5em;
+            li, li a{
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+
         .link-abre-e-fecha {
             background-color: $primary-color;
             padding: 5px;
             min-width: 50px;
             margin: 0 0 25px;
-            font-family: museoSlab;
+            font-family: $font-stack;
             font-size: 70%;
             text-transform: uppercase;
             color: #fff;

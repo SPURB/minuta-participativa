@@ -19,7 +19,6 @@
 	text-transform: none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -28,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-youtube, .icon-twitter, .icon-text-return, .icon-text-remove, .icon-text-change, .icon-text-add, .icon-so-so, .icon-quadro, .icon-quadro-bg, .icon-propose, .icon-not-agree, .icon-map, .icon-map-bg, .icon-facebook, .icon-comment, .icon-comment-bg, .icon-book, .icon-arrow-rigth, .icon-agree, .icon-pencil, .icon-mail, .icon-print, .icon-cancel, .icon-arrow-down, .icon-close, .icon-loop {
+.icon-youtube, .icon-twitter, .icon-text-return, .icon-text-remove, .icon-text-change, .icon-text-add, .icon-so-so, .icon-quadro, .icon-quadro-bg, .icon-propose, .icon-not-agree, .icon-map, .icon-map-bg, .icon-facebook, .icon-comment, .icon-comment-bg, .icon-book, .icon-arrow-rigth, .icon-agree, .icon-pencil, .icon-mail, .icon-print, .icon-cancel, .icon-arrow-down, .icon-close {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -112,7 +111,4 @@ you can use the generic selector below, but it's slower:
 }
 .icon-close:before {
 	content: "\e018";
-}
-.icon-loop:before {
-	content: "\e019";
 }

@@ -14,8 +14,8 @@
                 margin:0 5px;
             }
             margin: 0 0 0 5px;
-            font-size: 120%;
-            background-color: #fff;
+            // font-size: 120%;
+            // background-color: #fff;
             color: $primary-color;
             text-decoration: none;
         }
@@ -28,6 +28,10 @@
     margin: 15px 0;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, .5);
 
+    p { 
+        padding: 1em;
+    }
+
     h6 {
         position: relative;
         background: $primary-color;
@@ -35,7 +39,7 @@
         padding: 10px;
         margin:0;
         border-radius: 5px 5px 0 0;
-        font-family: 'museoSlab', sans-serif;
+        font-family: $font-stack;
         text-transform: uppercase;
         font-weight: normal;
         font-size: 100%;
@@ -96,6 +100,13 @@
                 input,
                 ul li {
                     font-size: 90%;
+                    font-size: 90%;
+                    border: 0;
+                    outline: 0;
+                    color: #333;
+                    font-size: 1rem;
+                    height: 1.9rem;
+                    padding: 0 2.2rem 0 .4rem;
                 }
             }
 
@@ -117,7 +128,7 @@
             }
             .send-comment,
             .cancel-comment {
-                font-size: 20px;
+                font-size: 1em;
                 line-height: 20px;
                 text-decoration: none;
                 text-transform: uppercase;

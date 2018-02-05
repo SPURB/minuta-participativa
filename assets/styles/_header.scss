@@ -9,12 +9,11 @@
 }
 
 .topbar .logo-gestao {
-    background: top left url('../images/logo-gestao_urbana.png') no-repeat transparent;
+    background: top left url('../images/logo-gestao_urbana.svg') no-repeat transparent;
     width: 206px;
     height: 22px;
     text-indent: -9999px;
     display: inline-block;
-    margin: 13px 15px 0;
 }
 
 .topbar .voltar-gestao {
@@ -34,7 +33,7 @@
     display: inline-block;
     padding: 15px 15px 0 15px;
     margin:0;
-    font-family: "museoSlab", sans-serif;
+    font-family: $font-stack;
 
 }
 
@@ -59,12 +58,12 @@
 
     ul {
         text-align: right;
-        width: 55%;
         padding:0;
         display: inline-block;
 
         &.secondary {
-            width: 40%;
+            // width: 25%;
+            float: right;
         }
 
         li {
@@ -73,7 +72,7 @@
             margin: 0 25px 0 0;
             a {
                 opacity: .5;
-                font-family: "museoSlab", sans-serif;
+                font-family: $font-stack;
                 color: #fff;
                 text-decoration: none;
 
@@ -85,6 +84,7 @@
         }
         &.primary {
             text-align: left;
+            float: left;
             li {
                 margin: 0 0 0 25px;
                 a {

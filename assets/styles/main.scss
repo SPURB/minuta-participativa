@@ -1,18 +1,26 @@
+// $primary-color: green;
 $primary-color: #d7322f;
 $secondary-color: #f2f2f2;
 $third-color: #231f20;
 
-@import "../bower_components/minimalect/jquery.minimalect";
+$font-stack: Roboto, Helvetica, sans-serif;
+
+@import "../bower_components/minimalect/jquery.minimalect.scss";
 @import "pure-min";
 @import "fonts";
 
 body {
     background: #fff;
-    font-family: "Droid Sans", sans-serif;
+    font-family: $font-stack;
     color: $third-color;
 }
 .pure-g-r > div {
         box-sizing: border-box;
+}
+
+a{
+    color: $primary-color;
+    text-decoration:none;
 }
 
 @import "fb-buttons";

@@ -26,19 +26,26 @@ function remove_password_email_text ( $text ) {
 function my_login_logo() { ?>
     <style type="text/css">
         body.login div#login h1 a {
-            background-image: url(<?php echo get_bloginfo( 'template_directory' ) ?>/images/logo-gestao_urbana.png);
+            background-image: url(<?php echo get_bloginfo( 'template_directory' ) ?>/images/logo-gestao_urbana.svg);
             padding-bottom: 30px;
-            background-size: 90%;
+            background-size: 100%;
             background-position: 50% 50%;
+            width: 255px;
+            height: 22px
         }
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
-function admin_default_page() {
-  return '/';
+
+add_filter( 'login_headerurl', 'custom_loginlogo_url' );
+function custom_loginlogo_url($url) {
+  return 'http://gestaourbana.prefeitura.sp.gov.br/';
 }
 
+function admin_default_page() {
+  return './';
+}
 add_filter('login_redirect', 'admin_default_page');
 
 show_admin_bar(false);

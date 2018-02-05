@@ -68,7 +68,7 @@ define(['jquery', 'Comments', 'RelatedContent', 'Proposals', 'spinjs', 'introjs'
         startIntro : function (e) {
             e.preventDefault();
 
-            jQuery('.comment-pp:eq(0)').attr('data-intro', 'Estes são os trechos da Minuta de Anteprojeto de Lei. O texto foi desenvolvido pela Prefeitura de São Paulo considerando as propostas feitas pela população da cidade. Ao clicar sobre um trecho, você verá uma atualização do lado direito do site. Clique em próximo e entenda.');
+            jQuery('.comment-pp:eq(0)').attr('data-intro', 'Estes são os trechos da Minuta de Anteprojeto de Lei. O texto foi desenvolvido pela Prefeitura de São Paulo. Ao clicar sobre um trecho, você verá uma atualização do lado direito do site após a moderação do conteúdo.');
             jQuery('.comment-pp:eq(0)').attr('data-step', '2');
             jQuery('.comment-pp:eq(0)').attr('data-position', 'top');
 

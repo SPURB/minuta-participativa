@@ -21,7 +21,7 @@
                 background-color: $primary-color;
                 line-height: 24px;
                 font-size: 100%;
-                font-family: 'museoSlab';
+                font-family: $font-stack;
                 font-weight: normal;
                 text-transform: uppercase;
         }
@@ -50,7 +50,7 @@
                 font-size:12px;
                 line-height: 21px;
                 vertical-align: top;
-                font-family: 'museoSlab';
+                font-family: $font-stack;
 
                 a {
                     color: #666;
@@ -104,12 +104,12 @@
 
                     &.datetime {
                         font-size: 80%;
-                        font-family: 'museoSlab', sans-serif;
+                        font-family: $font-stack;
                         margin:0 0 5px 0;
                     }
                     &.author {
                         font-size: 110%;
-                        font-family: 'museoSlab', sans-serif;
+                        font-family: $font-stack;
                     }
 
                     i {
