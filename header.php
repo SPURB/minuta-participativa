@@ -21,7 +21,7 @@
             window.templateUrl = '<?php bloginfo('stylesheet_directory'); ?>';
         </script>
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/dist/main.css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/styles/main.css">
         <!-- endbuild -->
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="<?php bloginfo('stylesheet_directory'); ?>/scripts/vendor/modernizr.js"></script>

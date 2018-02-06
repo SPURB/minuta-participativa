@@ -1,3 +1,6 @@
+// bower:scss
+// endbower
+
 // $primary-color: green;
 $primary-color: #d7322f;
 $secondary-color: #f2f2f2;
@@ -5,7 +8,7 @@ $third-color: #231f20;
 
 $font-stack: Roboto, Helvetica, sans-serif;
 
-@import "../bower_components/minimalect/jquery.minimalect.scss";
+@import "../../bower_components/minimalect/jquery.minimalect.scss";
 @import "pure-min";
 @import "fonts";
 

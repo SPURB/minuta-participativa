@@ -37,11 +37,10 @@
                 </div>
             </div>
         </div>
-        <div class="pure-u-1 menubar"  class="primary" data-step="5" data-intro="Aqui você pode baixar a versão em PDF da minuta além dos estudos preliminares deste projeto.">
+        <div class="pure-u-1 menubar"  class="primary" data-step="5" data-intro="Aqui você pode baixar os estudos preliminares deste projeto.">
             <ul class="primary">
                 <!--li><a href="#" class="active"><i class="icon-propose"></i> minuta participativa</a></li-->
-                <li><a href="./wp-content/uploads/2018/02/PIU_Vila-Olimpia_R1.pdf" class="active"><i class="icon-book "></i> Minuta de Projeto de Lei (PDF)</a></li>
-                <li><a href="./wp-content/uploads/2018/02/PIU_VO_Consulta_Diagnostico.pdf" class="active"><i class="icon-quadro "></i> Diagnósticos</a></li>
+                <li><a href="./wp-content/uploads/2018/02/PIU_VO_Consulta_Diagnostico.pdf" class="active"><i class="icon-quadro "></i> Diagnóstico</a></li>
                 <li><a href="./wp-content/uploads/2018/02/PIU_VO_Consulta_Mapas.pdf" class="active"><i class="icon-map"></i> Mapas</a></li>
                 <li><a href="./wp-content/uploads/2018/02/PIU_VO_Consulta_ProgramaInteressePublico.pdf" class="active"><i class="icon-propose "></i> Programa de Interesse Público</a></li>
             </ul>
@@ -70,7 +69,7 @@
         <div class="pure-u-3-5 content">
             <?php query_posts('category_name=Consulta'); while (have_posts()) : the_post(); ?>
 
-            <h1 data-step="1" data-intro="Bem vindo a consulta pública do Projeto de Lei que define termos para o Projeto de Intervenção Urbana (PIU) da Vila Olímpia. Clique em 'Próximo' para entender como este site funciona ou 'Pular' para sair da ajuda inicial."><?php the_title(); ?></h1>
+            <h1 data-step="1" data-intro="Bem vindo a consulta pública que define termos para o Projeto de Intervenção Urbana (PIU) da Vila Olímpia. Clique em 'Próximo' para entender como este site funciona ou 'Pular' para sair da ajuda inicial."><?php the_title(); ?></h1>
             <div class="comments-bar">
                 <i class="icon-comment-bg"></i>
                 <span class="count-comment">Total de comentários <?php $comments = wp_count_comments($post->ID); echo "(" . $comments->approved . ")"; ?></span>
@@ -81,7 +80,7 @@
         <?php endwhile; ?>
         </div>
         <div class="pure-u-2-5 sidebar">
-            <div class="sidebox sub-featured" data-step="4" data-intro="Aqui está o texto da LPUOS de 2016 para consulta. Assim fica fácil consultar quais as regras estabelecidas que orientam o Zoneamento deste local."  data-position="left">
+            <div class="sidebox sub-featured" data-step="4" data-intro="Aqui está lugar o trecho do PDE que apresenta as diretrizes de ordenamento territorial para a MEM (Título II, arts. 8º a 12º)."  data-position="left">
                 <?php $pp = get_posts(array('post_type'=>'page', 'ID'=>2)); $pp = $pp[0]; ?>
                 <h2><i class="icon-book"></i><?php echo $pp->post_title; ?></h2>
                 <div class="text-content" data-url="<?php bloginfo('url'); ?>/minuta-antiga/">
@@ -90,7 +89,7 @@
                 <div class="related-content">
                     <p>
                         conteúdo relacionado:
-                        <a target="_blank" href="http://gestaourbana.prefeitura.sp.gov.br/marco-regulatorio/zoneamento/arquivos/"><i class="icon-propose"></i>Arquivos</a>
+                        <a target="_blank" href="http://gestaourbana.prefeitura.sp.gov.br/marco-regulatorio/plano-diretor/arquivos/"><i class="icon-propose"></i>Arquivos</a>
                     </p>
                 </div>
             </div>
