@@ -1,8 +1,8 @@
         <div class="pure-u-2-5 sidebar">
-            <div class="sidebox sub-featured" data-step="4" data-intro="Aqui está lugar o trecho do PDE que apresenta as diretrizes de ordenamento territorial."  data-position="left">
+            <div class="sidebox sub-featured" data-step="4" data-intro="Aqui está lugar o PDE que apresenta as diretrizes de ordenamento territorial."  data-position="left">
                 <h2><i class="icon-book"></i>Plano Diretor Estratégico - Lei nº 16.050</h2>
                 <div class="text-content">
-                    <?php include('consulta-minuta-antiga.php'); ?>
+                    <?php include('consulta-minuta-antiga.min.php'); ?>
                 </div>
                 <div class="related-content">
                     <p>

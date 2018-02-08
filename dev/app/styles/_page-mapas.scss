@@ -1,0 +1,14 @@
+ul.pl-lista-download{
+	padding:0;
+	li{
+		text-decoration: none;
+		list-style-type: none;
+		line-height:1.5;
+		a{
+			opacity:0.75;
+		}
+		a:hover{
+			opacity:1
+		}
+	}
+}

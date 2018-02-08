@@ -5,11 +5,21 @@ const browserSync = require('browser-sync').create();
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const sass = require('gulp-sass');
+const cssnano = require('gulp-cssnano');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 let dev = true;
+
+
+gulp.task('styles-min', () => {
+  return gulp.src('app/styles/*.scss')
+    .pipe(sass())
+    .pipe(cssnano())
+    .pipe(gulp.dest('dist/styles'))
+});
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')

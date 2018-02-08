@@ -1,7 +1,6 @@
 // bower:scss
 // endbower
 
-// $primary-color: green;
 $primary-color: #d7322f;
 $secondary-color: #f2f2f2;
 $third-color: #231f20;
@@ -31,5 +30,5 @@ a{
 @import "content";
 @import "sidebar";
 // @import "related-content";
-@import "intro";
 @import "page-mapas";
+@import "intro";

@@ -5,12 +5,12 @@
 
        <?php include('page-assets/topbar.php') ?>
 
-        <div class="pure-u-1 menubar"  class="primary" data-step="5" data-intro="Aqui você pode baixar os estudos preliminares deste projeto.">
+        <div class="pure-u-1 menubar"  class="primary" data-step="5" data-intro="Aqui você pode baixar os mapas, quadros e nota técnica deste projeto">
             <ul class="primary">
-                <li><a href="<?php echo home_url()?>" class="active"><i class="icon-propose"></i> minuta participativa</a></li>
+                <li><a href="<?php echo home_url()?>" class="active"><i class="icon-propose" class="active"></i> minuta participativa</a></li>
                 <li><a href="<?php echo home_url().'/mapas'?>"><i class="icon-map"></i> Mapas</a></li>
-                <li><a href="./#"><i class="icon-propose "></i> Diagnóstico</a></li>
-                <li><a href="./#"><i class="icon-propose "></i> Quadros</a></li>
+                <li><a href="<?php echo home_url().'/quadros'?>"><i class="icon-propose"></i> Quadros</a></li>
+                <li><a href="./wp-content/uploads/2018/02/NOTA_TECNICA_PLANO_URBANISTICO.pdf" download><i class="icon-propose"></i> Nota Técnica</a></li>
             </ul>
             <ul class="secondary">
                 <li><a class="help-button" href="#">Ajuda</a></li>
